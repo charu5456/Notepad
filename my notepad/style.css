@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Tangerine&display=swap');
+.container{
+     margin-top: 95px;
+     font-family: 'Cinzel', serif;
+    font-weight: 400;
+
+}
+.form-group{
+    font-size: 15px;
+    letter-spacing: 2px;
+
+}
+.form-control{
+    font-family: 'Tangerine', cursive;
+    font-weight: 700;
+    font-size: 35px;
+}
+.form-control::placeholder{
+    font-size: 25px;
+    text-transform: lowercase;
+    font-family: 'Redressed', cursive;
+}
+.card 
+{
+    width: 80%;
+    margin-left: 6px;
+ 
+}
+.card-header i {
+    float:right;
+   
+}
+.fa-trash, .fa-pencil-alt {
+    cursor: pointer;
+    width: 20px;
+}
+.hidden {
+    display:none;
+}
+.swatch {
+    width: 20px;
+     height: 20px; 
+     float:left; 
+     margin-right:10px; 
+     border-radius: 50%; 
+     cursor: grab; 
+    }
+.swatch:hover, .active  {
+    border: 2px solid rgb(243, 236, 236);
+}
+
